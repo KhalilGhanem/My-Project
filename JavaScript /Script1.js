@@ -1,14 +1,16 @@
 
+function greating(){
+    var userName = prompt('What is Your name?');
+    alert ('Welcom to my site '+userName );
+}
+greating();
 
-var userName = prompt('What is Your name?');
-alert ('Welcom to my site '+userName );
-
-
+ function pickteam(){
 var yourTeam = prompt('which team do you support ?!!' ,'Real Madrid , Barcelona , Bayern Munich');
 while (yourTeam !=='Real Madrid' && yourTeam !=='Bayern Munich' && yourTeam !=='Barcelona'){
     yourTeam= prompt('please enter a team from the list' ,'Real Madrid , Barcelona , Bayern Munich');
 }
-
+ 
 if (yourTeam==='Real Madrid'){
     document.write('<img src="Images/RM.jpg" height="200px" width="200px"/>');
 }else if (yourTeam==='Bayern Munich'){
@@ -24,6 +26,8 @@ image+='<img src="Images/trophy.jpg" height="200px" width="200px"/>';
 }
 console.log(image);
 document.write(image);
+ }
+ pickteam();
 // else {
 //     document.write('<h3>Good Team</h3>');
 // }
