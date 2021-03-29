@@ -2,7 +2,7 @@
  body {
     background-image: url(https://wallpaperaccess.com/full/1348783.jpg);
     background-size: cover; 
-    color: aliceblue;
+    color: cyan;
  }
  header h1 {
     text-align: center;
@@ -14,7 +14,7 @@
     padding-left: 30px;
  }
  nav ul li a {
-    color: cyan;
+    color: aliceblue;
  }
  img {
     height: 200px;
@@ -23,4 +23,8 @@
 
  footer {
      text-align: center;
+ }
+ table {
+    border: 2px solid aliceblue;;
+
  }

@@ -5,7 +5,7 @@ function greating(){
 }
 greating();
 
- function pickteam(){
+function pickteam(){
 var yourTeam = prompt('which team do you support ?!!' ,'Real Madrid , Barcelona , Bayern Munich');
 while (yourTeam !=='Real Madrid' && yourTeam !=='Bayern Munich' && yourTeam !=='Barcelona'){
     yourTeam= prompt('please enter a team from the list' ,'Real Madrid , Barcelona , Bayern Munich');
